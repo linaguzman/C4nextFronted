@@ -1,9 +1,5 @@
-import React from 'react'
+import React from 'react';
 
-export default function IndexCAtegory1() {
-    return (
-        <div>
-            <h1>IndexCAtegory1</h1>
-        </div>
-    )
-}
+const IndexCategory1 = () => <div>Index Category1</div>;
+
+export default IndexCategory1;

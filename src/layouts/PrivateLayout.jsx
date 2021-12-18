@@ -1,9 +1,9 @@
-import Sidebar from 'components/Sidebar';
+import Sidebar from './components/Sidebar';
 import React, { useEffect, useState } from 'react';
 import { ToastContainer } from 'react-toastify';
 import { useMutation } from '@apollo/client';
-import { useAuth } from 'context/authContext';
-import { REFRESH_TOKEN } from 'graphql/auth/mutations';
+import { useAuth } from './context/authContext';
+import { REFRESH_TOKEN } from './graphql/auth/mutations';
 import { useNavigate, Outlet } from 'react-router-dom';
 import 'react-toastify/dist/ReactToastify.css';
 import PrivateRoute from 'components/PrivateRoute';
