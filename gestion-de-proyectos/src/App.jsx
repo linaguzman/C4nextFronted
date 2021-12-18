@@ -30,7 +30,7 @@ import Profile from 'pages/profile';
 // import PrivateRoute from 'components/PrivateRoute';
 
 const httpLink = createHttpLink({
-  uri: 'https://servidor-gql-mintic.herokuapp.com/graphql',
+  uri: 'https://git.heroku.com/c4nextfronted.git',
 });
 
 const authLink = setContext((_, { headers }) => {
